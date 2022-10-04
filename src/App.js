@@ -19,34 +19,33 @@ function App() {
 
   return (
     <div className="App">
-      <header><h1>Monsters Guide</h1></header>
-      <table>
-        <thead>
-          <tr>
-            <th>Name</th>
-            <th>Appearance</th>
-            <th>Abilities</th>
-            <th>Weaknesses</th>
-            <th>Photo</th>
-          </tr>
-        </thead>
-      </table>
+      <header className="Header">
+        <img src="logoBig.png" className="Logo"/>
+        <h1 className="Tittle">Monsters Guide</h1>
+      </header>
+      <body>
+        <div className="textBox">
+        <p className="text">Made by hunters for hunters</p>
+        <p className="text">Monsters are supernatural creatures with extraordinary strength and powers and abilities. In this guide you can see their different abilities and how to identify a monster. The weakness can show how the monster can be killed or weakened. Feel free to add any other monsters that you find in your hunt.</p>
+        </div>
+        
 
-    <MonsterList 
-      posts={monsters} 
-      setPosts={setMonsters} 
-      />
-    <MonsterList 
-      posts={posts} 
-      setPosts={setPosts} 
-      />
-    <MonsterCreate
-     initialFormState={initialFormState}
-     formData={formData}
-     setFormData={setFormData}
-     posts={posts}
-     setPosts={setPosts}
-     />
+        <MonsterList 
+          posts={monsters} 
+          setPosts={setMonsters} 
+          />
+        <MonsterList 
+          posts={posts} 
+          setPosts={setPosts} 
+          />
+        <MonsterCreate
+        initialFormState={initialFormState}
+        formData={formData}
+        setFormData={setFormData}
+        posts={posts}
+        setPosts={setPosts}
+        />
+     </body>
 
     </div>
   )

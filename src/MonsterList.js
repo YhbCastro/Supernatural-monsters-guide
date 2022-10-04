@@ -12,9 +12,17 @@ function MonsterList ({ posts, setPosts }) {
         key={index}
         />
     })
-    return <div className="monster-list postContent">
-        <table>
-            <tbody>
+    return <div className="monster-list">
+        <table >
+        
+            <tbody className="Content">
+                <tr>
+                    <td className="ContentCollunm">Name</td>
+                    <td className="ContentCollunm">Appearance</td>
+                    <td className="ContentCollunm">Abilities</td>
+                    <td className="ContentCollunm">Weaknesses</td>
+                    <td className="ContentCollunm">Photo</td>
+                </tr>
                 {monsterList}
             </tbody>
         </table>

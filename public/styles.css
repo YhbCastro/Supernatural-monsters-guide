@@ -1,0 +1,28 @@
+body {
+    margin:0%
+}
+
+html {
+    background-color: #000518;
+    background-image: url("background.jpg");
+    background-repeat: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    text-align-last: center;
+    margin-bottom: 20px;
+}
+
+p {
+    color: white;
+    font-family: fantasy;
+}
+
+a {
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+}

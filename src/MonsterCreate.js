@@ -18,12 +18,13 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
     }
 
     return (
-        <form name="create" id="create" onSubmit={handleSubmit}>
+        <form name="create" id="create" className="Form" onSubmit={handleSubmit}>
             <table>
                 <tbody>
                     <tr>
                         <td>
                             <input
+                                className="Input"
                                 placeholder="Name"
                                 id="name"
                                 type="text"
@@ -34,6 +35,7 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
                         </td>
                         <td>
                             <input
+                                className="Input"
                                 placeholder="Appearance"
                                 id="appearance"
                                 type="text"
@@ -44,6 +46,7 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
                         </td>
                         <td>
                             <input
+                                className="Input"
                                 placeholder="Abilities"
                                 id="abilities"
                                 type="text"
@@ -54,6 +57,7 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
                         </td>
                         <td>
                             <input
+                                className="Input"
                                 placeholder="Weaknesses"
                                 id="weaknesses"
                                 type="text"
@@ -64,7 +68,8 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
                         </td>
                         <td>
                             <input  
-                                placeholder="URL"
+                                className="Input"
+                                placeholder="Photo URL"
                                 id="photo"
                                 type="url"
                                 name="photo"
@@ -73,7 +78,7 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
                             />
                         </td>
                         <td>
-                            <button type="submit">Create</button>
+                            <button type="submit" className="Button">Create</button>
                         </td>
                     </tr>
                 </tbody>

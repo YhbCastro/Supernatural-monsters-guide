@@ -5,7 +5,7 @@ function DeleteButton({ post, posts, setPosts }) {
         setPosts(posts.filter(post => post.id !== indexToDelete))
     }
 
-    return <button name="delete" onClick={() => deleteButton(post.id)}>
+    return <button name="delete" className="Button" onClick={() => deleteButton(post.id)}>
         Delete
     </button>
 }
