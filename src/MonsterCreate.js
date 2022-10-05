@@ -4,6 +4,7 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
     const newPost = {
         id: "",
         name: formData.name,
+        prey: formData.prey,
         appearance: formData.appearance,
         abilities: formData.abilities,
         weaknesses: formData.weaknesses,
@@ -31,6 +32,17 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
                                 name="name"
                                 onChange={handleChange}
                                 value={formData.name}
+                             />
+                        </td>
+                        <td>
+                            <input
+                                className="Input"
+                                placeholder="Prey"
+                                id="prey"
+                                type="text"
+                                name="prey"
+                                onChange={handleChange}
+                                value={formData.prey}
                              />
                         </td>
                         <td>

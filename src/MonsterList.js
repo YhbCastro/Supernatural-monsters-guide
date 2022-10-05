@@ -14,10 +14,10 @@ function MonsterList ({ posts, setPosts }) {
     })
     return <div className="monster-list">
         <table >
-        
             <tbody className="Content">
                 <tr>
                     <td className="ContentCollunm">Name</td>
+                    <td className="ContentCollunm">Prey</td>
                     <td className="ContentCollunm">Appearance</td>
                     <td className="ContentCollunm">Abilities</td>
                     <td className="ContentCollunm">Weaknesses</td>

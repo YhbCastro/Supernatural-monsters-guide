@@ -12,6 +12,20 @@
   margin-bottom: 20px;
 }
 
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: scale-down;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
 .Tittle {
   color: white;
 }
@@ -24,10 +38,11 @@
 
 .Content {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-  font-size: medium;
+  font-size: small;
   font-weight: 100;
   color: white;
   border: 2px solid white;
+  text-align: center;
 }
 
 .monster-list {
@@ -42,7 +57,8 @@
 
 .text {
   font-family: 'Times New Roman', Times, serif;
-  text-align: left;
+  font-size: larger;
+  text-align: center;
 }
 
 .textBox {
@@ -80,3 +96,4 @@
  margin-top: 100px;
  margin-left: 20px;
 }
+

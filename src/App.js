@@ -8,6 +8,7 @@ function App() {
   const initialFormState = {
     id: "",
     name: "",
+    prey: "",
     appearance: "",
     abilities: "",
     weaknesses: "",
@@ -34,10 +35,7 @@ function App() {
           posts={monsters} 
           setPosts={setMonsters} 
           />
-        <MonsterList 
-          posts={posts} 
-          setPosts={setPosts} 
-          />
+        
         <MonsterCreate
         initialFormState={initialFormState}
         formData={formData}
