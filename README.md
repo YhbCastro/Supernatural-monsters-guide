@@ -1,5 +1,5 @@
 # Supernatural-monsters-guide
- A guide for monsters that appear in Supernatural, with the most important imformation about then.
+ A guide for monsters that appear in Supernatural, with the most important information about then.
  
  ## Installation
  
