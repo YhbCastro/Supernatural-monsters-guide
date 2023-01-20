@@ -5,7 +5,7 @@ const MonsterData = [
     appearance: "Humanoid, can be over 6 feet, eyes are pushed back deep in their sockets, and have many layers of crooked, sharp, teeth, razor-like claws used to rip prey to shreds, sometimes said to have matted fur and have chunks of skin and flesh missing, due to consumption.",
     abilities: "Voice mimicry, immortality, super speed, superhuman strength, super agility, super senses, super stamina.",
     weaknesses: "Fire, anasazi symbols, iron, steel, silver.",
-    photo:"https://www.fanbolt.com/storage/2022/02/wendigo-supernatural.jpg"
+    photo:"https://mythology.net/wp-content/uploads/2018/07/Wendigo-hunting-380x240.jpg"
     },
     {
     name: "Djinn",
