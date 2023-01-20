@@ -59,6 +59,13 @@ table {
   animation-iteration-count: infinite;
 }
 
+.Icon {
+  filter: invert();
+  width: 20px;
+  height: 20px;
+}
+
+
 .Content {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-size: small;
@@ -120,3 +127,17 @@ table {
  margin-left: 20px;
 }
 
+.FooterNames {
+  display: flex;
+  justify-content: center;
+  text-align-last: center;
+  margin-bottom: 20px;
+}
+
+.Footer {
+  margin-top: 20px;
+}
+
+.Icons {
+  margin-left: 10px;
+}

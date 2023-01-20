@@ -3,6 +3,7 @@ import React, { useState }  from "react";
 import MonsterData from "./MonsterData";
 import MonsterCreate from "./MonsterCreate";
 import MonsterList from "./MonsterList";
+import Footer from "./Footer";
 
 function App() {
   const initialFormState = {
@@ -60,6 +61,9 @@ function App() {
         setPosts={setPosts}
         />
      </body>
+     <footer>
+      <Footer/>
+     </footer>
 
     </div>
   )
