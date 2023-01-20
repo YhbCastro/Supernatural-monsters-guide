@@ -3,7 +3,9 @@ import React, { useState }  from "react";
 import MonsterData from "./MonsterData";
 import MonsterCreate from "./MonsterCreate";
 import MonsterList from "./MonsterList";
-import Footer from "./Footer";
+
+
+
 
 function App() {
   const initialFormState = {
@@ -19,6 +21,7 @@ function App() {
   const [formData, setFormData] = useState({...initialFormState})
   const [posts, setPosts] = useState([])
 
+
   return (
     <div className="App">
       <header className="Header">
@@ -28,9 +31,8 @@ function App() {
       <body>
         <div className="textBox">
         <p className="text">Made by hunters for hunters</p>
-        <p className="text">Monsters are supernatural creatures with extraordinary strength and powers and abilities. In this guide you can see their different abilities and how to identify a monster. The weakness can show how the monster can be killed or weakened. Feel free to add any other monsters that you find in your hunt.</p>
+        <p className="text">Monsters are supernatural creatures with extraordinary strength, powers and abilities. In this guide you can see their different abilities and how to identify a monster. The weakness can show how the monster can be killed or weakened. Feel free to add any other monsters that you find in your hunt.</p>
         </div>
-
         <table >
             <thead className="Content">
             <tr>
@@ -43,16 +45,20 @@ function App() {
             </tr>
             </thead>
         </table>
+       
+       
 
-        <MonsterList 
-          posts={monsters} 
-          setPosts={setMonsters} 
+
+        <MonsterList
+          posts={monsters}
+          setPosts={setMonsters}
           />
         <MonsterList
           posts={posts}
           setPosts={setPosts}
         />
-        
+       
+       
         <MonsterCreate
         initialFormState={initialFormState}
         formData={formData}
@@ -61,12 +67,9 @@ function App() {
         setPosts={setPosts}
         />
      </body>
-     <footer>
-      <Footer/>
-     </footer>
-
     </div>
   )
 }
+
 
 export default App;

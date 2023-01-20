@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
     const newPost = {
         id: "",
@@ -18,8 +19,9 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
         setFormData({...initialFormState})
     }
 
+
     return (
-        <form name="create" id="create" className="Form" onSubmit={handleSubmit}>
+        <form name="create" id="create" onSubmit={handleSubmit}>
             <table>
                 <tbody>
                     <tr>
@@ -98,5 +100,6 @@ function MonsterCreate({ initialFormState, formData, setFormData, posts }) {
         </form>
     )
 }
+
 
 export default MonsterCreate;

@@ -1,5 +1,5 @@
 import React from "react";
-import MonsterCreate from "./MonsterCreate";
+
 
 function PostContent({ post, posts, setPosts }) {
     return (
@@ -13,5 +13,6 @@ function PostContent({ post, posts, setPosts }) {
         </tr>
     )
 }
+
 
 export default PostContent;
