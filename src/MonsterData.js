@@ -74,7 +74,7 @@ const MonsterData = [
     {
     name: "Rugaru",
     prey: "Once they have human flesh for the first time they change into predators and attack humans.",
-    appearance: "Humans taht have a genetic condition and in their adult life develop a hunger for human flesh, after feeding gets violent and start changing its appearence.",
+    appearance: "Humans that have a genetic condition and in their adult life develop a hunger for human flesh, after feeding gets violent and start changing its appearence.",
     abilities: "Super strength, super speed, super stamina, super senses.",
     weaknesses: "Fire.",
     photo: "https://pm1.narvii.com/6118/bcf709fe2fe9cb7d64712dbd375a1bba43250f78_hq.jpg",
